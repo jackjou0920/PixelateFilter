@@ -13,3 +13,12 @@ photo mosaic by averaging RGB colour values of the image cells through C languag
 * Analysed the utilisation of memory through Visual Studio profiler in order to progressively improve the code
 
 ## Results
+#### The output image with different resolution
+![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/mosaic.png)
+
+#### Improvement of code design: reducing the number of atomicAdd function and transferring three *unsigned char* data type into a single vector types *uchar3*
+![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/memory_usilisation1.png)
+![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/memory_usilisation2.png)
+
+#### The final execution time of the six different pixel images using different modes
+![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/execution_time.png)
