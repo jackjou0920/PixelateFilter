@@ -18,7 +18,8 @@ photo mosaic by averaging RGB colour values of the image cells through C languag
 
 #### Improvement of code design: reducing the number of atomicAdd function and transferring three *unsigned char* data type into a single vector types *uchar3*
 ![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/memory_usilisation1.png)
-![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/memory_usilisation2.png)
+
+![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/memory_utilisation2.png)
 
 #### The final execution time of the six different pixel images using different modes
 ![image](https://github.com/jackjou0920/PixelateFilter/blob/master/img/execution_time.png)
